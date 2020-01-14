@@ -7,7 +7,7 @@ and creates metrics using one of the supported [input data formats][].
 ### Configuration
 
 ```toml
-[[inputs.pubsub]]
+[[inputs.cloud_pubsub]]
 ## Required. Name of Google Cloud Platform (GCP) Project that owns
   ## the given PubSub subscription.
   project = "my-project"
